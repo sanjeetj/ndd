@@ -76,7 +76,7 @@ Example:
 
 ###Other useful features
 ####ndd for multilingual configurable static text support 
-ndd can also be used to load static text data in multiple languages. BUILD_LOCAL environment variable can be set to the locale of interest and ndd will pull the static data in the correct language. This can be handy for internationalization use cases.
+ndd can also be used to load static text data in multiple languages. BUILD_LOCALE environment variable can be set to the locale of interest and ndd will pull the static data in the correct language. This can be handy for internationalization use cases.
 
 Such static data should be configured in following format.
 ```json
@@ -108,7 +108,7 @@ Helper methods are provided to fetch errors and labels. For example
 ndd.getError("404");
 ndd.getLabel("login.screen.id");
 ```
-will return and error "Access Denied!" and a label "Enter User ID" in English if BUILD_ENV is set to "en".
+will return and error "Access Denied!" and a label "Enter User ID" in English if BUILD_LOCALE is set to "en".
 
 ####ndd for storing database queries
 One last feature supported by ndd is to store database queries. This is really just a wrapper function for better code readability. You can store your database quries grouped by module name and then use ndd helper method ```ndd.getQuery(module,queryId)``` to fetch the query text.
