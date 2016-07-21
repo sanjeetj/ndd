@@ -1,6 +1,6 @@
 {
   "name": "ndd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node deployment descriptor framework",
   "main": "ndd.js",
   "directories": {
@@ -9,10 +9,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies" : {
+  "dependencies": {
     "nconf": "^0.8.4"
   },
-  "devDependencies" : {
+  "devDependencies": {
     "nconf": "^0.8.4"
   },
   "keywords": [
