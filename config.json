@@ -1,0 +1,34 @@
+{
+  "prod": {
+    "redis": { "host": "localhost", "port": 6379},
+    "cassandra": {"host": "cassandra.default.svc.cluster.local", "key_space": "my_keyspace"}
+  },
+  "qa": {
+    "redis": { "host": "localhost", "port": 6379},
+  	"cassandra": {"host": "10.142.0.9", "key_space": "my_keyspace"}
+  },
+  "local": {
+    "redis": { "host": "localhost", "port": 6379},
+    "cassandra": {"host": "localhost", "key_space": "my_keyspace"}
+  },
+  "errors": {
+    "en": {
+            "400" : "Access Denied. Please key in the correct URL to access or check with your Admin if you are authorized to access this URL.",
+            "Redis-Conn-Refused" : "Redis server is refusing connection",
+            "Redis-Timeout" : "Redis server connection retry time exhausted",
+            "Redis-Failed" : "Redis connection failed after 10 retries"
+        }
+  },
+  "labels": {
+    "en": {
+            "login.uid" : "Enter User Name:",
+            "login.pswd" : "Enter Password:"
+        }
+  },
+  "db-queries": {
+    "user-mgmt": {
+            "get-all.users.country" : "select * from USERS where country=?"
+        }
+  }
+
+}
