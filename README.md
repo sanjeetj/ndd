@@ -51,7 +51,6 @@ The configuration file format is expected to be as follows.
 >>Note At present ndd only supports hostname, port number, user-id and password. The framework should be extended if any other connection parameter data is required.
 
 ```json
- 
       {
         "<env>": {
           "<component-name>": { "host": "<host-name>", "port": "<port-number>", "uid": "<user-id>", "password", "<password>"}
