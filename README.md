@@ -1,0 +1,2 @@
+# ndd
+Node Deployment Descriptor
