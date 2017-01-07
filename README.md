@@ -6,7 +6,7 @@
 ndd was developed as a helper utility module on top of [nConf](https://github.com/indexzero/nconf). [nConf](https://github.com/indexzero/nconf) is a great module for working with configuration data. 
 
 Do you really need ndd when nConf itself can do everything ndd can? Not really, but we have already put some
-though into structuring the configuration file so you can save some dev cycles and brainstorming sessions if you use ndd. 
+thought into structuring the configuration file so you can save some dev cycles and brainstorming sessions if you use ndd. 
 
 ndd is very simple to use; it uses a key-value store and a couple of ENV variables to wire your entire application to
 connect to the right system components. 
